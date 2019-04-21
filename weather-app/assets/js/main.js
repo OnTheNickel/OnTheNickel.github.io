@@ -1,4 +1,4 @@
-$(document).ready(function () {
+﻿$(document).ready(function () {
 
     var lat;
     var long;
@@ -18,7 +18,6 @@ $(document).ready(function () {
                 var farenheit = (celsius * 1.8) + 32;
 
                 var location = res.name;
-                
 
 
                 $('.weather-location').html(location);
@@ -42,7 +41,7 @@ $(document).ready(function () {
                     "color": "white"
                 });
 
-                icons.set("Clear", Skycons.CLEAR_DAY);
+                icons.set("Clear-day", Skycons.CLEAR_DAY);
                 icons.set("Clear-night", Skycons.CLEAR_NIGHT);
                 icons.set("Partly-cloudy-day", Skycons.PARTLY_CLOUDY_DAY);
                 icons.set("Partly-cloudy-night", Skycons.PARTLY_CLOUDY_NIGHT);
