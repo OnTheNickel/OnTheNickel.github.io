@@ -35,10 +35,7 @@ $(document).ready(function () {
                         $('.temp-type').html('°C');
                     }
                 });
-//change celcius to farenhite
-    far = Math.floor((.temp * 9) / 5 + 32);
-    $(".temperature-text").html(temp + " °F");
-    $(".far").html(far + " " + '°F');
+
 
                 //SETTING UP THE ICON 
                 var icons = new Skycons({
